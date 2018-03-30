@@ -1,0 +1,57 @@
+.About{
+	width: 100%;	
+}
+
+.container {
+	width: 90%;	
+}
+
+.text-center {
+	text-align: center;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex .container {
+	width:49%;
+	margin: 0px auto;
+}
+
+.justify {
+	text-align: justify;
+}
+
+#container2 {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+#container2 h3 {
+	text-align: left;
+}
+
+
+
+
+@media (max-width: 768px) {
+	
+.flex {
+	flex-direction: column;
+}
+
+.flex .container {
+	width:100%;
+}	
+
+#w-w-d {
+	padding-top: 50px;
+}
+
+#container2 h3 {
+	text-align: center;
+}
+
+}

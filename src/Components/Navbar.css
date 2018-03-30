@@ -1,0 +1,140 @@
+.Navbar {
+      margin-bottom: 3em;
+      width: 100%;
+      min-height: 40vh;
+      background: url(../Images/hero.jpg) no-repeat;
+      background-position: bottom;
+      background-size: cover;
+}
+
+.active-link {
+      color: #019fb6;
+}
+
+ 
+.logo {      
+      position: fixed;
+      float: left;      
+      color:whitesmoke;
+      font-weight: bold;
+      font-size: 23px;
+      letter-spacing: 2px;
+      padding: 20px 40px;
+      cursor: default;
+}
+ 
+nav {
+      position: fixed;
+      width: 100%;
+      
+}
+ 
+nav ul {      
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: all 0.6s ease-out;
+}
+ 
+nav.black ul {
+      background: #03396c;
+}
+ 
+nav ul li {
+      display: inline-block;
+      padding: 20px 40px;
+}
+ 
+nav ul li a {      
+      color:whitesmoke;
+      font-size: 23px;
+}
+
+nav ul li a:hover {
+      color: #019fb6;
+}
+ 
+.menu-icon {      
+      width: 100%;
+      background: #03396c;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 25px 24px 20px 24px;
+      cursor: pointer;
+      color:whitesmoke;
+      display: none;
+}
+ 
+
+
+
+
+
+
+a:after {
+  
+  display:block;
+  content: '';
+  border-bottom: solid 3px #019fb6;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+li a:hover:after {      
+      transform: scaleX(1.2);
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+ 
+      .logo {
+            position: fixed;
+            top: 0;
+            padding: 22px;
+            font-size: 27px;
+      }
+ 
+      nav ul {    
+            height: 0;
+            padding: 0;
+            background: #03396c;
+      }
+
+      .showing {
+            height: 15em;
+      }
+ 
+      nav.black ul {
+            background: #03396c;
+      }
+ 
+ 
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      nav ul li a {
+            font-size: 25px;
+      }
+ 
+      .menu-icon {
+            display: block;
+      }
+
+      li a:hover:after {      
+      transform: scaleX(0.3);
+}
+ 
+}

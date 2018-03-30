@@ -1,0 +1,14 @@
+* {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-decoration: none;
+      font-family: "Poppins";
+}
+
+
+body {
+      width: 100%;
+      line-height: 1.5;
+      font-size: 1.1em;	
+}

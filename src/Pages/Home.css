@@ -1,0 +1,67 @@
+.Home{
+	width: 100%;	
+	background:#333;	
+	color: whitesmoke;	
+}
+
+.container {
+	width:90%;
+	margin: auto;
+}
+
+.text-center {
+	text-align: center;
+}
+
+
+
+img {
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+#section-a{
+	background-color: #f7f7f7;
+	color:black;	
+	padding-bottom: 3em;
+}
+
+
+#section-b {
+	padding:1em 0;
+}
+
+
+
+
+@media(min-width: 768px) {
+
+.flex {
+	display: flex;
+}
+
+#section-b {
+	padding-top: 1em 0;
+	
+}
+
+.card {
+	padding: 0;
+}
+
+#section-b ul {
+	justify-content: space-around;
+}
+
+#section-b li {
+	width: 33%;
+}
+
+
+
+
+
+
+
+}
